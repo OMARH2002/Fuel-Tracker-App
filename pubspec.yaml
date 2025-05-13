@@ -38,6 +38,10 @@ dependencies:
   firebase_auth: ^5.4.1
   flutter_bloc: ^9.0.0
   cloud_firestore: ^5.6.5
+  google_fonts: ^6.2.1
+  flutter_screenutil: ^5.9.3
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.6
 
 dev_dependencies:
   flutter_test:
@@ -62,10 +66,20 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/App-LOGO/
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/App-LOGO/App-Icon.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/App-LOGO/App-Icon.png
+  android: true
+  ios: true
+  fullscreen: true
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

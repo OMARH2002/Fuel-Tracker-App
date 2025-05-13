@@ -1,4 +1,5 @@
-import 'fuel-tracker cubit.dart';
+
+import 'model.dart';
 
 abstract class FuelTrackerState {}
 
@@ -20,3 +21,5 @@ class FuelTrackerError extends FuelTrackerState {
   final String message;
   FuelTrackerError(this.message);
 }
+
+class FuelTrackerEntryDeleted extends FuelTrackerState {}
