@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212216633840",
+    "project_id": "fuel-tracker-5dd68",
+    "storage_bucket": "fuel-tracker-5dd68.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212216633840:android:3105919ce49b733bade535",
+        "android_client_info": {
+          "package_name": "com.example.fueltrackerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVLX4vcR-cM28-5zVwhSn4mX__kVmh8ZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
